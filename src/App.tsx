@@ -35,18 +35,39 @@ function MediaImage({ src, alt, className, width, height, loading = 'lazy', fetc
 }
 
 function Brand() {
-  return <a className="brand" href="#inicio" aria-label="PYL Bages, inicio"><img src={`${mediaBase}gif-logo.gif`} alt="" width="180" height="54" /><span>PYL <b>Bages</b></span></a>
+  return <a className="brand" href="#inicio" aria-label="PYL Bages, inicio"><img src="/images/pylbages-logo.gif" alt="" width="480" height="449" /><span>PYL <b>Bages</b></span></a>
 }
 
 function SiteHeader() {
   const [open, setOpen] = useState(false)
+  const headerRef = useRef<HTMLElement>(null)
+  const toggleRef = useRef<HTMLButtonElement>(null)
+  useEffect(() => {
+    if (!open) return
+    const dismiss = (event: PointerEvent) => {
+      if (!headerRef.current?.contains(event.target as Node)) setOpen(false)
+    }
+    const escape = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') { setOpen(false); toggleRef.current?.focus() }
+    }
+    const desktop = window.matchMedia('(min-width: 1101px)')
+    const resize = () => { if (desktop.matches) setOpen(false) }
+    document.addEventListener('pointerdown', dismiss)
+    document.addEventListener('keydown', escape)
+    desktop.addEventListener('change', resize)
+    return () => {
+      document.removeEventListener('pointerdown', dismiss)
+      document.removeEventListener('keydown', escape)
+      desktop.removeEventListener('change', resize)
+    }
+  }, [open])
   return (
-    <header className="site-header">
+    <header className="site-header" ref={headerRef} onBlur={(event) => { if (!event.currentTarget.contains(event.relatedTarget as Node | null)) setOpen(false) }}>
       <Brand />
-      <button className="menu-toggle" type="button" aria-expanded={open} aria-controls="site-nav" aria-label={open ? 'Cerrar menú' : 'Abrir menú'} onClick={() => setOpen(!open)}><span /><span /></button>
+      <button ref={toggleRef} className="menu-toggle" type="button" aria-expanded={open} aria-controls="site-nav" aria-label={open ? 'Cerrar menú' : 'Abrir menú'} onClick={() => setOpen(!open)}><span /><span /></button>
       <nav className={`site-nav${open ? ' is-open' : ''}`} id="site-nav" aria-label="Navegación principal" onClick={(event) => { if ((event.target as HTMLElement).closest('a')) setOpen(false) }}>
         <a href="#servicios">Servicios</a><a href="#trabajos">Proyectos</a><a href="#empresa">Empresa</a><a href="#contacto">Contacto</a>
-        <a className="nav-phone" href="tel:+34931276440">931 27 64 40</a><a className="button button-small" href="#contacto">Solicitar presupuesto a PYL Bages <span aria-hidden="true">↗</span></a>
+        <a className="nav-phone" href="tel:+34931276440">931 27 64 40</a><a className="button button-small" href="#contacto">Consultar mi proyecto <span aria-hidden="true">↗</span></a>
       </nav>
     </header>
   )
@@ -58,11 +79,26 @@ function SectionKicker({ number, children, light = false }: { number: string; ch
 
 function Hero() {
   return (
-    <section className="hero" id="inicio" aria-labelledby="hero-title">
-      <MediaImage className="hero-image" src={photos[0].src} alt="Trabajo de placa de yeso laminado realizado por PYLBAGES" width={photos[0].width} height={photos[0].height} loading="eager" fetchPriority="high" />
-      <div className="hero-shade" />
-      <div className="hero-content"><p className="eyebrow eyebrow-light"><span /> Sistemas interiores · PYL Bages</p><h1 id="hero-title">Tu proyecto toma forma con <em>PYL Bages.</em></h1><p className="hero-intro">Placa de yeso laminado, falsos techos y soluciones de aislamiento.</p><div className="hero-actions"><a className="button" href="#contacto"><span className="cta-wide">Solicitar presupuesto a PYL Bages</span><span className="cta-compact">Solicitar presupuesto</span><span aria-hidden="true">↗</span></a><a className="text-link text-link-light" href="#trabajos">Ver trabajos <span aria-hidden="true">↓</span></a></div></div>
-      <div className="hero-index" aria-hidden="true"><span>01</span><i /><span>INTERIORES</span></div><a className="hero-contact" href="tel:+34931276440"><span className="contact-dot" />Hablemos del proyecto <b>931 27 64 40</b></a>
+    <section className="hero hero-overview" id="inicio" aria-labelledby="hero-title">
+      <div className="hero-overview-copy">
+        <p className="eyebrow">PYL Bages · Instalación y asesoramiento</p>
+        <h1 id="hero-title">Placa de yeso, falsos techos <em>y aislamiento.</em></h1>
+        <p className="hero-overview-intro">Instalamos tabiquería de placa de yeso laminado, falsos techos y aislamiento térmico y acústico. Cuéntanos qué necesitas y te asesoramos sin compromiso.</p>
+        <p className="hero-location"><strong>En Monistrol de Montserrat, Barcelona.</strong><span>Consulta si trabajamos en tu municipio.</span></p>
+        <div className="hero-actions">
+          <a className="button" href="#contacto">Consultar mi proyecto <span aria-hidden="true">↗</span></a>
+          <a className="text-link" href="#trabajos">Ver trabajos <span aria-hidden="true">↓</span></a>
+        </div>
+        <div className="hero-direct-contact" aria-label="Contacto directo">
+          <a href="tel:+34931276440">Llama al <strong>931 27 64 40</strong></a>
+          <a href="mailto:info@pylbages.es">info@pylbages.es</a>
+          <p>Lunes a viernes · 8:00–18:00</p>
+        </div>
+      </div>
+      <figure className="hero-overview-photo">
+        <MediaImage src={photos[0].src} alt="Trabajo de placa de yeso laminado de PYL Bages" width={photos[0].width} height={photos[0].height} loading="eager" fetchPriority="high" />
+        <figcaption>Trabajos de PYL Bages <a href="#trabajos">Ver galería <span aria-hidden="true">↗</span></a></figcaption>
+      </figure>
     </section>
   )
 }
@@ -113,7 +149,8 @@ function FAQ() {
 }
 
 function Contact() {
-  const [status, setStatus] = useState('El formulario todavía no está conectado a un servicio de envío. Puedes contactar por teléfono o correo electrónico.')
+  const [contactMethod, setContactMethod] = useState('email')
+  const [status, setStatus] = useState('')
   const submit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault()
     if (!event.currentTarget.reportValidity()) { setStatus('Revisa los campos obligatorios antes de continuar.'); return }
@@ -124,7 +161,7 @@ function Contact() {
   }
   return (
     <section className="contact section-pad" id="contacto"><SectionKicker number="06" light>CUÉNTANOS TU PROYECTO</SectionKicker><div className="contact-grid"><div className="contact-copy"><h2>Hablemos de <em>lo que necesitas.</em></h2><p>En PYL Bages, una primera descripción nos ayuda a entender el trabajo y orientarte sobre la información que hace falta para valorarlo.</p><div className="contact-details"><a href="tel:+34931276440"><small>LLÁMANOS</small><b>931 27 64 40</b></a><a href="mailto:info@pylbages.es"><small>ESCRÍBENOS</small><b>info@pylbages.es</b></a><div><small>HORARIO PUBLICADO</small><b>Lunes a viernes · 8:00–18:00</b></div></div><p className="availability-note">No se ha confirmado la ubicación ni la zona de servicio. Indica el municipio y te diremos si podemos valorar el proyecto.</p></div>
-      <form className="contact-form" onSubmit={submit}><h3 className="form-title">Cuéntale tu proyecto a PYL Bages</h3><p className="form-intro">SOLICITUD DE PRESUPUESTO <span>* Campos obligatorios</span></p><label>Nombre <span>*</span><input name="name" autoComplete="name" required /></label><label>Teléfono o correo de contacto <span>*</span><input name="replyTo" autoComplete="email" required /></label><div className="form-row"><label>Tipo de trabajo<select name="service"><option value="">Selecciona una opción</option><option>Tabiquería de placa de yeso laminado</option><option>Falso techo</option><option>Aislamiento térmico</option><option>Aislamiento acústico</option><option>Acondicionamiento acústico o insonorización</option><option>Protección pasiva contra el fuego</option><option>Otro / no lo sé todavía</option></select></label><label>Municipio<input name="municipality" autoComplete="address-level2" /></label></div><label>Descripción del proyecto <span>*</span><textarea name="description" rows={4} required placeholder="Qué necesitas resolver, estado de la obra, dimensiones aproximadas…" /></label><button className="button button-light" type="submit"><span className="cta-wide">Solicitar presupuesto a PYL Bages</span><span className="cta-compact">Solicitar presupuesto</span><span aria-hidden="true">↗</span></button><p className="form-status" role="status" aria-live="polite">{status}</p></form>
+      <form className="contact-form" onSubmit={submit} aria-describedby="contact-delivery"><h3 className="form-title">Cuéntale tu proyecto a PYL Bages</h3><p className="form-intro">SOLICITUD DE PRESUPUESTO <span>* Campos obligatorios</span></p><p className="form-delivery" id="contact-delivery">Al continuar se abrirá tu aplicación de correo con el mensaje preparado. Tendrás que enviarlo desde allí. También puedes llamarnos al <a href="tel:+34931276440">931 27 64 40</a>.</p><label>Nombre <span>*</span><input name="name" autoComplete="name" required /></label><fieldset className="contact-method"><legend>¿Cómo prefieres que te respondamos?</legend><label><input type="radio" name="contactMethod" value="email" checked={contactMethod === 'email'} onChange={() => setContactMethod('email')} />Correo electrónico</label><label><input type="radio" name="contactMethod" value="tel" checked={contactMethod === 'tel'} onChange={() => setContactMethod('tel')} />Teléfono</label></fieldset><label>{contactMethod === 'email' ? 'Correo electrónico' : 'Teléfono'} <span>*</span><input key={contactMethod} name="replyTo" type={contactMethod} inputMode={contactMethod === 'email' ? 'email' : 'tel'} autoComplete={contactMethod} required onInput={(event) => { const field = event.currentTarget; field.setCustomValidity(contactMethod === 'tel' && field.value.replace(/\D/g, '').length < 7 ? 'Introduce un teléfono con al menos 7 dígitos.' : '') }} /></label><div className="form-row"><label>Tipo de trabajo<select name="service"><option value="">Selecciona una opción</option><option>Tabiquería de placa de yeso laminado</option><option>Falso techo</option><option>Aislamiento térmico</option><option>Aislamiento acústico</option><option>Acondicionamiento acústico o insonorización</option><option>Protección pasiva contra el fuego</option><option>Otro / no lo sé todavía</option></select></label><label>Municipio<input name="municipality" autoComplete="address-level2" /></label></div><label>Descripción del proyecto <span>*</span><textarea name="description" rows={4} required placeholder="Qué necesitas resolver, estado de la obra, dimensiones aproximadas…" /></label><button className="button button-light" type="submit"><span>Preparar correo</span><span aria-hidden="true">↗</span></button><p className="form-status" role="status" aria-live="polite">{status}</p></form>
     </div></section>
   )
 }
@@ -133,8 +170,22 @@ function SiteFooter() {
   return <footer className="site-footer"><div className="footer-brand"><Brand /><p>Sistemas interiores<br />Placa de yeso laminado · techos · aislamiento</p></div><nav aria-label="Navegación del pie"><a href="#servicios">Servicios</a><a href="#trabajos">Proyectos</a><a href="#empresa">Empresa</a><a href="#contacto">Contacto</a></nav><div className="footer-contact"><a href="tel:+34931276440">931 27 64 40</a><a href="mailto:info@pylbages.es">info@pylbages.es</a></div><div className="legal-placeholder"><span>Textos legales pendientes de incorporar por la empresa</span><small>© PYLBAGES</small></div></footer>
 }
 
+function MobileContactBar() {
+  const barRef = useRef<HTMLElement>(null)
+  useEffect(() => {
+    const bar = barRef.current
+    if (!bar) return
+    const update = () => document.documentElement.style.setProperty('--mobile-cta-height', `${getComputedStyle(bar).position === 'fixed' ? bar.getBoundingClientRect().height : 0}px`)
+    const observer = new ResizeObserver(update)
+    observer.observe(bar)
+    update()
+    return () => { observer.disconnect(); document.documentElement.style.removeProperty('--mobile-cta-height') }
+  }, [])
+  return <nav ref={barRef} className="mobile-cta" aria-label="Contacto rápido"><a href="tel:+34931276440">Llamar</a><a href="#contacto">Consultar proyecto <span aria-hidden="true">↗</span></a></nav>
+}
+
 function App() {
-  return <><a className="skip-link" href="#contenido">Saltar al contenido</a><SiteHeader /><main id="contenido"><Hero /><Introduction /><Services /><WorkGallery /><Process /><FAQ /><Contact /></main><SiteFooter /><div className="mobile-cta" aria-label="Accesos rápidos"><a href="tel:+34931276440"><span aria-hidden="true">⌕</span>Llamar</a><a href="#contacto">Pedir presupuesto <span aria-hidden="true">↗</span></a></div></>
+  return <><a className="skip-link" href="#contenido">Saltar al contenido</a><SiteHeader /><main id="contenido"><Hero /><Introduction /><Services /><WorkGallery /><Process /><FAQ /><Contact /></main><SiteFooter /><MobileContactBar /></>
 }
 
 export default App
