@@ -1,0 +1,73 @@
+{
+  "_comment": "ÚNICO punto de configuración. Todo el sitio (enlaces, JSON-LD, metas, formulario) lee de aquí. Los valores con [CONFIRMAR] salen de la web actual pylbages.es y deben validarse con el cliente antes de publicar.",
+
+  "brand": "PYL Bages",
+  "legalName": "PYL Bages S.L. [CONFIRMAR razón social y NIF]",
+  "siteUrl": "https://pylbages.es",
+  "themeColor": "#f7f6f2",
+  "showTodoMarkers": true,
+
+  "contact": {
+    "phoneDisplay": "931 27 64 40",
+    "phoneE164": "+34931276440",
+    "phoneConfirmed": false,
+    "whatsappNumber": "34XXXXXXXXX",
+    "whatsappConfirmed": false,
+    "whatsappMessage": "Hola, quiero pedir presupuesto para un proyecto de pladur",
+    "email": "info@pylbages.es",
+    "emailConfirmed": false,
+    "address": {
+      "street": "Carrer del Pont, 14",
+      "postalCode": "08691",
+      "locality": "Monistrol de Montserrat",
+      "region": "Barcelona",
+      "country": "ES",
+      "publicOffice": false,
+      "confirmed": false
+    },
+    "geo": { "lat": 41.6105, "lng": 1.8433 },
+    "hours": {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "08:00",
+      "closes": "18:00",
+      "confirmed": false
+    },
+    "social": [],
+    "googleBusinessUrl": ""
+  },
+
+  "form": {
+    "_comment": "Endpoint del formulario. Formspree: crea el formulario, activa la subida de archivos (plan de pago) y pega aquí la URL https://formspree.io/f/XXXXXXX",
+    "endpoint": "https://formspree.io/f/XXXXXXX",
+    "honeypotField": "_gotcha",
+    "maxFiles": 5,
+    "maxFileMB": 5,
+    "accept": "image/jpeg,image/png,image/webp,image/heic,application/pdf"
+  },
+
+  "analytics": {
+    "_comment": "Vacío = sin analítica. Si se añade, solo se carga tras aceptar cookies de analítica (ver src/js/main.js → loadAnalytics).",
+    "plausibleDomain": ""
+  },
+
+  "areaServed": [
+    { "name": "Manresa", "slug": "manresa", "lat": 41.7286, "lng": 1.8268 },
+    { "name": "Sant Fruitós de Bages", "slug": "sant-fruitos-de-bages", "lat": 41.7517, "lng": 1.8733 },
+    { "name": "Sant Joan de Vilatorrada", "slug": "sant-joan-de-vilatorrada", "lat": 41.7454, "lng": 1.8048 },
+    { "name": "Santpedor", "slug": "santpedor", "lat": 41.7838, "lng": 1.8379 },
+    { "name": "Sallent", "slug": "sallent", "lat": 41.8256, "lng": 1.8955 },
+    { "name": "Navàs", "slug": "navas", "lat": 41.8997, "lng": 1.8772 },
+    { "name": "Súria", "slug": "suria", "lat": 41.8333, "lng": 1.75 },
+    { "name": "Callús", "slug": "callus", "lat": 41.7833, "lng": 1.7833 },
+    { "name": "Cardona", "slug": "cardona", "lat": 41.9141, "lng": 1.6796 },
+    { "name": "Artés", "slug": "artes", "lat": 41.7983, "lng": 1.9547 },
+    { "name": "Balsareny", "slug": "balsareny", "lat": 41.8633, "lng": 1.8761 },
+    { "name": "Navarcles", "slug": "navarcles", "lat": 41.7517, "lng": 1.903 },
+    { "name": "Sant Vicenç de Castellet", "slug": "sant-vicenc-de-castellet", "lat": 41.6667, "lng": 1.8667 },
+    { "name": "Castellgalí", "slug": "castellgali", "lat": 41.6756, "lng": 1.8392 },
+    { "name": "Monistrol de Montserrat", "slug": "monistrol-de-montserrat", "lat": 41.6105, "lng": 1.8433 }
+  ],
+  "areaConfirmed": false,
+
+  "reviews": []
+}

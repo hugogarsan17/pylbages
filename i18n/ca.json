@@ -1,0 +1,444 @@
+{
+  "meta": {
+    "lang": "ca",
+    "locale": "ca_ES",
+    "title": "PYL Bages | Pladur, cels rasos i aïllament al Bages",
+    "description": "Envans de placa de guix laminat, cels rasos i aïllament tèrmic i acústic a Manresa i al Bages. Pressupost gratuït i sense compromís.",
+    "ogImageAlt": "Cel ras de pladur amb un despenjat i envans de placa resistent a la humitat en una obra de PYL Bages",
+    "langName": "Català",
+    "switchTo": "Español",
+    "switchLabel": "Leer la web en español"
+  },
+  "a11y": {
+    "skip": "Salta al contingut",
+    "menu": "Menú",
+    "closeMenu": "Tanca el menú",
+    "mainNav": "Navegació principal",
+    "newTab": "(s'obre en una pestanya nova)"
+  },
+  "nav": {
+    "services": "Serveis",
+    "work": "Treballs",
+    "process": "Procés",
+    "area": "Zona",
+    "faq": "Preguntes",
+    "quote": "Demana pressupost"
+  },
+  "cta": {
+    "quote": "Demana pressupost gratuït",
+    "call": "Truca",
+    "whatsapp": "WhatsApp",
+    "callOrWhatsapp": "Truca'ns o escriu-nos per WhatsApp",
+    "floatWhatsapp": "Escriu-nos per WhatsApp",
+    "floatCall": "Truca a PYL Bages"
+  },
+  "hero": {
+    "eyebrow": "Placa de guix laminat a Manresa i la comarca del Bages",
+    "title": "Envans, sostres i aïllament al Bages",
+    "lead": "Muntem envans de pladur, cels rasos i aïllament tèrmic i acústic a Manresa i rodalies. Obra neta, terminis acordats per escrit i un acabat a punt per pintar.",
+    "imageAlt": "Cel ras de placa de guix laminat amb un despenjat per a instal·lacions i envans de placa resistent a la humitat (verda), amb les juntes tractades, en una obra de PYL Bages",
+    "caption": "Obra en curs: cel ras amb despenjat i envans amb placa hidròfuga."
+  },
+  "trust": {
+    "label": "Per què contactar amb nosaltres",
+    "items": [
+      "Pressupost sense compromís",
+      "Treballem a tot el Bages",
+      "Particulars i professionals",
+      "Visita i amidament a l'obra"
+    ]
+  },
+  "services": {
+    "kicker": "Serveis",
+    "title": "Quatre sistemes en sec per a gairebé qualsevol interior",
+    "intro": "Treballem amb placa de guix laminat (coneguda com a pladur): plaques de guix cargolades a una estructura metàl·lica lleugera. Es munta ràpid, embruta poc i permet passar instal·lacions per dins.",
+    "more": "Veure detall",
+    "items": [
+      {
+        "id": "tabiques",
+        "title": "Envans de placa de guix",
+        "short": "Noves distribucions, trasdossats i tancaments sense obra humida.",
+        "body": "Aixequem envans i trasdossats (una segona pell sobre una paret existent) per redistribuir habitatges, dividir oficines o regularitzar parets. Triem la placa segons l'ús: estàndard, resistent a la humitat per a banys i cuines, o d'alta duresa per a zones de pas.",
+        "points": [
+          "Envans simples i dobles",
+          "Trasdossats directes i autoportants",
+          "Placa hidròfuga per a zones humides",
+          "Registres per a instal·lacions"
+        ],
+        "layers": [
+          "Placa de guix laminat",
+          "Muntant metàl·lic",
+          "Llana mineral"
+        ]
+      },
+      {
+        "id": "techos",
+        "title": "Cels rasos",
+        "short": "Continus, registrables o decoratius, amb instal·lacions integrades.",
+        "body": "Baixem o anivellem el sostre per amagar conductes, cablejat o climatització. El cel ras continu queda llis i a punt per pintar; el registrable (de plaques desmuntables) facilita el manteniment en locals i oficines; el decoratiu admet despenjats, foscs per a il·luminació i canvis de nivell.",
+        "points": [
+          "Cel ras continu",
+          "Cel ras registrable desmuntable",
+          "Despenjats i foscs per a llum",
+          "Placa per a exterior en porxos"
+        ],
+        "layers": [
+          "Forjat",
+          "Vareta de penjar",
+          "Perfileria",
+          "Placa",
+          "Pas d'instal·lacions"
+        ]
+      },
+      {
+        "id": "termico",
+        "title": "Aïllament tèrmic",
+        "short": "Menys fred a l'hivern i menys calor a l'estiu.",
+        "body": "Incorporem llana mineral o altres aïllants dins de trasdossats i cels rasos per reduir pèrdues per façanes, cobertes i mitgeres. Abans de proposar una solució revisem el tancament i el risc de condensacions.",
+        "points": [
+          "Trasdossat de façanes",
+          "Aïllament sota coberta",
+          "Revisió de ponts tèrmics",
+          "Barrera de vapor quan cal"
+        ],
+        "layers": [
+          "Façana existent",
+          "Aïllant",
+          "Placa",
+          "Exterior",
+          "Interior"
+        ]
+      },
+      {
+        "id": "acustico",
+        "title": "Aïllament acústic i insonorització",
+        "short": "Menys soroll entre veïns, habitacions o locals.",
+        "body": "Reduïm el soroll que passa d'un espai a un altre combinant plaques, llana mineral i fixacions elàstiques que desacoblen l'estructura. Primer identifiquem d'on ve el soroll (veus, impactes, maquinària) i com està construït el recinte, perquè la solució canvia en cada cas.",
+        "points": [
+          "Parets mitgeres",
+          "Sostres sota veïns",
+          "Locals i sales d'assaig",
+          "Estudi previ de l'origen del soroll"
+        ],
+        "layers": [
+          "Doble placa",
+          "Doble estructura independent",
+          "Llana mineral"
+        ]
+      }
+    ],
+    "fire": "També fem sectoritzacions i protecció passiva contra incendis amb sistemes de placa, segons els requisits de cada obra.",
+    "drawingNote": "Esquemes orientatius. El sistema exacte es defineix a la visita.",
+    "indexLabel": "Anar a cada servei"
+  },
+  "why": {
+    "kicker": "Per què PYL Bages",
+    "title": "El que ens demanen els clients, posat per escrit",
+    "items": [
+      {
+        "title": "Obra neta cada dia",
+        "text": "Protegim terres i mobles, recollim retalls i pols en acabar cada jornada i retirem els residus de placa al final."
+      },
+      {
+        "title": "Terminis que es compleixen",
+        "text": "Fixem dates d'inici i final al pressupost i t'avisem amb antelació si alguna cosa de l'obra obliga a canviar-les."
+      },
+      {
+        "title": "Pressupost tancat",
+        "text": "Després d'amidar, et donem un preu per partides amb material, mà d'obra i retirada de residus. Sense sorpreses al final."
+      },
+      {
+        "title": "Assessorament tècnic",
+        "text": "T'expliquem quina placa, perfileria i aïllant convé i per què, perquè decideixis sabent què pagues."
+      }
+    ]
+  },
+  "work": {
+    "kicker": "Treballs fets",
+    "title": "Així treballem a l'obra",
+    "intro": "Fotografies reals de les nostres obres en execució: estructura, placa i juntes abans de la pintura. Llisca la barra per comparar l'abans i el després.",
+    "compareLabel": "Compara l'abans i el després",
+    "before": "Abans",
+    "after": "Després",
+    "sliderHelp": "Fes servir les fletxes esquerra i dreta per moure la comparació.",
+    "pairs": [
+      {
+        "title": "[SUBSTITUIR per foto real] Reforma de menjador amb sostre nou",
+        "beforeAlt": "[SUBSTITUIR] Menjador abans de la reforma, amb el sostre antic",
+        "afterAlt": "[SUBSTITUIR] Menjador amb cel ras continu de pladur acabat"
+      },
+      {
+        "title": "[SUBSTITUIR per foto real] Nova distribució d'oficina",
+        "beforeAlt": "[SUBSTITUIR] Oficina diàfana abans de dividir",
+        "afterAlt": "[SUBSTITUIR] Oficina dividida amb envans de placa de guix"
+      }
+    ],
+    "gallery": [
+      {
+        "img": "techo-continuo-trasdosados",
+        "type": "Cel ras i trasdossats",
+        "text": "Cel ras continu i parets trasdossades amb les juntes encintades, deixant registres per als col·lectors.",
+        "alt": "Estança amb cel ras continu i parets trasdossades de placa de guix amb les juntes encintades i dos registres per a col·lectors"
+      },
+      {
+        "img": "tabique-bajo-l",
+        "type": "Envans",
+        "text": "Envà baix en L amb arestes rectes i juntes plastecides, a falta de la pintura.",
+        "alt": "Envà baix de placa de guix laminat en forma de L amb arestes rectes i juntes plastecides, sobre terra de terratzo"
+      },
+      {
+        "img": "descuelgue-climatizacion",
+        "type": "Despenjat per a climatització",
+        "text": "Despenjat de sostre amb forat de registre per al conducte d'aire i el cablejat.",
+        "alt": "Cel ras de pladur amb despenjat i forat per on baixen un conducte flexible de climatització i cables"
+      },
+      {
+        "img": "techo-exterior-glasroc",
+        "type": "Sostre exterior",
+        "text": "Sostre de porxo amb placa específica per a exterior, cargolada abans de tractar les juntes.",
+        "alt": "Sostre exterior d'un porxo revestit amb plaques per a exterior cargolades sobre estructura metàl·lica, amb jardí al fons"
+      }
+    ]
+  },
+  "process": {
+    "kicker": "Com treballem",
+    "title": "De la primera trucada al lliurament, en 4 passos",
+    "steps": [
+      {
+        "title": "Explica'ns el teu projecte",
+        "text": "Per telèfon, WhatsApp o el formulari. Si tens fotos o plànols, envia-les: ens estalvien temps a tots dos."
+      },
+      {
+        "title": "Visita i amidament",
+        "text": "Anem a l'obra, amidem, revisem suports i instal·lacions i et proposem la solució adequada."
+      },
+      {
+        "title": "Pressupost tancat",
+        "text": "Reps un pressupost per partides amb materials, terminis i condicions. Sense compromís."
+      },
+      {
+        "title": "Execució i lliurament",
+        "text": "Muntem, tractem juntes i revisem el resultat amb tu abans de donar l'obra per acabada."
+      }
+    ]
+  },
+  "clients": {
+    "kicker": "Per a qui treballem",
+    "title": "Una manera de col·laborar per a cada tipus de client",
+    "items": [
+      {
+        "title": "Particulars",
+        "text": "Reformes d'habitatge, canvis de distribució, sostres nous i problemes de soroll o fred.",
+        "points": [
+          "Visita i pressupost sense compromís",
+          "T'expliquem cada opció sense tecnicismes",
+          "Coordinem amb la resta d'oficis si cal"
+        ]
+      },
+      {
+        "title": "Constructores, reformistes i arquitectes",
+        "text": "Executem la partida de placa de guix de la vostra obra segons projecte o plànols.",
+        "points": [
+          "Pressupost per partides sobre amidaments o plànols",
+          "Equip propi amb maquinària",
+          "Coordinació amb el vostre cap d'obra"
+        ]
+      },
+      {
+        "title": "Locals, oficines i comunitats",
+        "text": "Adequació de locals, divisions d'oficina, cels rasos registrables i insonorització d'activitats.",
+        "points": [
+          "Planificació per molestar el mínim",
+          "Cels rasos registrables per al manteniment",
+          "Solucions acústiques per a activitats"
+        ]
+      }
+    ],
+    "cta": "Explica'ns el teu cas"
+  },
+  "comfort": {
+    "kicker": "Aïllament i confort",
+    "title": "Aïllar del fred o del soroll? No és el mateix",
+    "thermalTitle": "Aïllament tèrmic",
+    "thermalWhen": "Convé quan:",
+    "thermalItems": [
+      "Les parets exteriors són fredes al tacte a l'hivern",
+      "Apareixen condensacions o floridura a les cantonades",
+      "Una habitació sota coberta és un forn a l'estiu",
+      "La calefacció no aconsegueix mantenir la temperatura"
+    ],
+    "acousticTitle": "Aïllament acústic",
+    "acousticWhen": "Convé quan:",
+    "acousticItems": [
+      "Sents converses o la televisió dels veïns",
+      "Notes passos o cops del pis de dalt",
+      "Tens un local, despatx o sala de música que no ha de molestar",
+      "Necessites privacitat entre consultes o despatxos"
+    ],
+    "note": "El resultat depèn de com estigui construït cada espai. Per això, abans de proposar una solució, la valorem a la visita; no prometem xifres d'estalvi ni de decibels sense conèixer l'obra."
+  },
+  "reviews": {
+    "kicker": "Opinions",
+    "title": "El que diuen els nostres clients",
+    "placeholderTag": "[Ressenya real]",
+    "placeholderText": "[DADA A CONFIRMAR AMB EL CLIENT] Aquí es mostraran ressenyes reals de clients, copiades amb el seu permís o de la fitxa de Google.",
+    "placeholderAuthor": "Nom del client, municipi",
+    "google": "Veure ressenyes a Google"
+  },
+  "area": {
+    "kicker": "Zona de treball",
+    "title": "Treballem a Manresa i a tota la comarca del Bages",
+    "intro": "Ens desplacem a obres en aquests municipis i rodalies. Si el teu no hi surt, pregunta'ns.",
+    "mapTitle": "Mapa esquemàtic de la comarca del Bages amb els municipis on treballem",
+    "base": "La nostra base",
+    "loadMap": "Veure a Google Maps",
+    "mapConsent": "En carregar el mapa, Google rebrà dades de la teva navegació. Només es carrega si ho acceptes.",
+    "listLabel": "Municipis on treballem"
+  },
+  "faq": {
+    "kicker": "Preguntes freqüents",
+    "title": "Abans de començar, el que més ens pregunten",
+    "items": [
+      {
+        "q": "Quina diferència hi ha entre el pladur i l'obra tradicional de maó?",
+        "a": "El pladur (placa de guix laminat) es munta en sec, cargolant plaques a una estructura metàl·lica. Es fa en menys temps, genera menys runa i pols, pesa molt menys i permet passar instal·lacions per dins. Amb la placa i l'aïllant adequats, també compleix requisits acústics, tèrmics i de resistència al foc."
+      },
+      {
+        "q": "Quant triga una obra de pladur?",
+        "a": "Depèn dels metres, del tipus de sistema i de si cal coordinar-se amb altres oficis. A la visita et donem un termini concret per a la teva obra i el deixem per escrit al pressupost."
+      },
+      {
+        "q": "Com demano pressupost?",
+        "a": "Omple el formulari d'aquesta pàgina, truca'ns o escriu-nos per WhatsApp. Explica'ns el municipi, el tipus de treball i, si pots, envia fotos o plànols. Et contactem per concertar la visita."
+      },
+      {
+        "q": "Què inclou la visita?",
+        "a": "Amidem els espais, revisem l'estat de parets, sostres i instal·lacions, escoltem què necessites i et recomanem la solució. Amb aquesta informació preparem un pressupost tancat. La visita és sense compromís."
+      },
+      {
+        "q": "Quina diferència hi ha entre aïllament acústic i tèrmic?",
+        "a": "El tèrmic redueix el pas de calor i fred a través de parets i sostres. L'acústic redueix el pas del so entre espais. De vegades es resolen amb el mateix sistema i de vegades no: un bon aïllant tèrmic no sempre aïlla del soroll. Ho valorem segons el teu problema."
+      },
+      {
+        "q": "Treballeu per a particulars o només per a empreses?",
+        "a": "Per a tots dos. Fem reformes d'habitatge per a particulars i col·laborem amb constructores, reformistes, arquitectes, comunitats i negocis."
+      }
+    ]
+  },
+  "form": {
+    "kicker": "Pressupost",
+    "title": "Demana el teu pressupost gratuït",
+    "intro": "Explica'ns què necessites. Et responem per concertar una visita. Els camps amb * són obligatoris.",
+    "name": "Nom",
+    "phone": "Telèfon",
+    "email": "Correu electrònic",
+    "town": "Municipi de l'obra",
+    "workType": "Tipus de treball",
+    "workOptions": [
+      "Envans",
+      "Cels rasos",
+      "Aïllament tèrmic",
+      "Aïllament acústic",
+      "Altres"
+    ],
+    "choose": "Tria una opció",
+    "surface": "Superfície aproximada (m²)",
+    "surfaceHint": "Si no la saps, deixa-ho en blanc.",
+    "clientType": "Tipus de client",
+    "clientOptions": [
+      "Particular",
+      "Professional"
+    ],
+    "message": "Explica'ns el teu projecte",
+    "messagePlaceholder": "Què vols fer, estat actual, terminis que tens al cap…",
+    "files": "Fotos o plànols (opcional)",
+    "filesHint": "Imatges o PDF. Màxim 5 fitxers de 5 MB cadascun.",
+    "honeypot": "No omplis aquest camp",
+    "privacy": "He llegit i accepto la <a href=\"{privacyUrl}\">política de privacitat</a>",
+    "privacyNote": "Responsable: PYL Bages. Finalitat: respondre la teva sol·licitud de pressupost. No cedim les teves dades a tercers excepte per obligació legal. Pots exercir els teus drets escrivint al nostre correu.",
+    "submit": "Envia la sol·licitud",
+    "sending": "Enviant…",
+    "success": "Gràcies! Hem rebut la teva sol·licitud. Et contactarem tan aviat com puguem.",
+    "error": "No hem pogut enviar el formulari. Torna-ho a provar o truca'ns.",
+    "errors": {
+      "required": "Aquest camp és obligatori.",
+      "email": "Introdueix un correu vàlid, per exemple nom@correu.cat.",
+      "phone": "Introdueix un telèfon de 9 xifres.",
+      "surface": "Introdueix un número entre 1 i 100000.",
+      "privacy": "Has d'acceptar la política de privacitat per enviar la sol·licitud.",
+      "filesCount": "Pots adjuntar com a màxim 5 fitxers.",
+      "fileSize": "Cada fitxer ha de pesar 5 MB o menys.",
+      "fileType": "Només s'admeten imatges (JPG, PNG, WEBP, HEIC) o PDF.",
+      "summary": "Revisa els camps marcats en vermell."
+    }
+  },
+  "footer": {
+    "tagline": "Envans de placa de guix laminat, cels rasos i aïllament a la comarca del Bages.",
+    "contact": "Contacte",
+    "hours": "Horari",
+    "hoursText": "De dilluns a divendres, de 8:00 a 18:00",
+    "area": "Zona",
+    "areaText": "Manresa i comarca del Bages",
+    "office": "Oficina",
+    "noPublic": "Treballem a domicili al Bages",
+    "legal": "Informació legal",
+    "legalNotice": "Avís legal",
+    "privacy": "Política de privacitat",
+    "cookies": "Política de galetes",
+    "cookieSettings": "Configura les galetes",
+    "rights": "Tots els drets reservats."
+  },
+  "cookies": {
+    "title": "Galetes",
+    "text": "Fem servir galetes tècniques necessàries. Amb el teu permís, també carregaríem estadístiques de visites i el mapa de Google.",
+    "accept": "Accepta",
+    "reject": "Rebutja",
+    "configure": "Configura",
+    "save": "Desa la selecció",
+    "necessary": "Necessàries",
+    "necessaryText": "Guarden la teva elecció de galetes. Sempre actives.",
+    "analytics": "Estadístiques",
+    "analyticsText": "Ens ajuden a saber quines pàgines es visiten. Ara mateix no n'hi ha cap d'activa.",
+    "maps": "Mapes",
+    "mapsText": "Permeten mostrar el mapa de Google Maps, que pot instal·lar les seves pròpies galetes.",
+    "more": "Veure la política de galetes"
+  },
+  "pages": {
+    "thanksTitle": "Gràcies per la teva sol·licitud",
+    "thanksText": "Hem rebut les teves dades. Et contactarem tan aviat com puguem per concertar la visita. Si és urgent, truca'ns o escriu-nos per WhatsApp.",
+    "backHome": "Torna a l'inici",
+    "notFoundTitle": "Pàgina no trobada",
+    "notFoundText": "La pàgina que busques no existeix o ha canviat d'adreça.",
+    "legalNoticeTitle": "Avís legal",
+    "privacyTitle": "Política de privacitat",
+    "cookiesTitle": "Política de galetes",
+    "legalPending": "[DADA A CONFIRMAR AMB EL CLIENT] Text legal pendent de redactar o revisar per un professional, amb la raó social, NIF, domicili i dades registrals de l'empresa.",
+    "cookiesTable": "Galetes i emmagatzematge que pot fer servir aquest web",
+    "cookiesRows": [
+      [
+        "pyl-consent (emmagatzematge local)",
+        "Pròpia, necessària",
+        "Guarda la teva elecció de galetes",
+        "12 mesos"
+      ],
+      [
+        "Google Maps",
+        "Tercers, mapes",
+        "Només si acceptes «Mapes» i prems «Veure a Google Maps»",
+        "Segons Google"
+      ],
+      [
+        "Analítica",
+        "Tercers, estadístiques",
+        "Ara mateix no n'hi ha cap d'activa",
+        "—"
+      ]
+    ],
+    "cookiesHead": [
+      "Nom",
+      "Tipus",
+      "Finalitat",
+      "Durada"
+    ]
+  }
+}

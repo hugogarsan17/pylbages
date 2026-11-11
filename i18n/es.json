@@ -1,0 +1,444 @@
+{
+  "meta": {
+    "lang": "es",
+    "locale": "es_ES",
+    "title": "PYL Bages | Pladur, falsos techos y aislamiento en el Bages",
+    "description": "Tabiquería de placa de yeso laminado, falsos techos y aislamiento térmico y acústico en Manresa y el Bages. Presupuesto gratis y sin compromiso.",
+    "ogImageAlt": "Falso techo de pladur con descuelgue y tabiques de placa resistente a la humedad en una obra de PYL Bages",
+    "langName": "Español",
+    "switchTo": "Català",
+    "switchLabel": "Llegir la web en català"
+  },
+  "a11y": {
+    "skip": "Saltar al contenido",
+    "menu": "Menú",
+    "closeMenu": "Cerrar menú",
+    "mainNav": "Navegación principal",
+    "newTab": "(se abre en una pestaña nueva)"
+  },
+  "nav": {
+    "services": "Servicios",
+    "work": "Trabajos",
+    "process": "Proceso",
+    "area": "Zona",
+    "faq": "Preguntas",
+    "quote": "Pide presupuesto"
+  },
+  "cta": {
+    "quote": "Pide presupuesto gratis",
+    "call": "Llamar",
+    "whatsapp": "WhatsApp",
+    "callOrWhatsapp": "Llámanos o escríbenos por WhatsApp",
+    "floatWhatsapp": "Escríbenos por WhatsApp",
+    "floatCall": "Llamar a PYL Bages"
+  },
+  "hero": {
+    "eyebrow": "Placa de yeso laminado en Manresa y la comarca del Bages",
+    "title": "Tabiques, techos y aislamiento en el Bages",
+    "lead": "Montamos tabiquería de pladur, falsos techos y aislamiento térmico y acústico en Manresa y alrededores. Obra limpia, plazos acordados por escrito y un acabado listo para pintar.",
+    "imageAlt": "Falso techo de placa de yeso laminado con un descuelgue para instalaciones y tabiques de placa resistente a la humedad (verde), con las juntas tratadas, en una obra de PYL Bages",
+    "caption": "Obra en curso: falso techo con descuelgue y tabiquería con placa hidrófuga."
+  },
+  "trust": {
+    "label": "Por qué contactar con nosotros",
+    "items": [
+      "Presupuesto sin compromiso",
+      "Trabajamos en todo el Bages",
+      "Particulares y profesionales",
+      "Visita y medición en obra"
+    ]
+  },
+  "services": {
+    "kicker": "Servicios",
+    "title": "Cuatro sistemas en seco para casi cualquier interior",
+    "intro": "Trabajamos con placa de yeso laminado (conocida como pladur): placas de yeso atornilladas a una estructura metálica ligera. Se monta rápido, ensucia poco y permite pasar instalaciones por dentro.",
+    "more": "Ver detalle",
+    "items": [
+      {
+        "id": "tabiques",
+        "title": "Tabiquería de placa de yeso",
+        "short": "Nuevas distribuciones, trasdosados y cerramientos sin obra húmeda.",
+        "body": "Levantamos tabiques y trasdosados (una segunda piel sobre una pared existente) para redistribuir viviendas, dividir oficinas o regularizar paredes. Elegimos la placa según el uso: estándar, resistente a la humedad para baños y cocinas, o de alta dureza para zonas de paso.",
+        "points": [
+          "Tabiques simples y dobles",
+          "Trasdosados directos y autoportantes",
+          "Placa hidrófuga para zonas húmedas",
+          "Registros para instalaciones"
+        ],
+        "layers": [
+          "Placa de yeso laminado",
+          "Montante metálico",
+          "Lana mineral"
+        ]
+      },
+      {
+        "id": "techos",
+        "title": "Falsos techos",
+        "short": "Continuos, registrables o decorativos, con instalaciones integradas.",
+        "body": "Bajamos o nivelamos el techo para esconder conductos, cableado o climatización. El techo continuo queda liso y listo para pintar; el registrable (de placas desmontables) facilita el mantenimiento en locales y oficinas; el decorativo admite descuelgues, foseados para iluminación y cambios de nivel.",
+        "points": [
+          "Techo continuo",
+          "Techo registrable desmontable",
+          "Descuelgues y foseados para luz",
+          "Placa para exterior en porches"
+        ],
+        "layers": [
+          "Forjado",
+          "Varilla de cuelgue",
+          "Perfilería",
+          "Placa",
+          "Paso de instalaciones"
+        ]
+      },
+      {
+        "id": "termico",
+        "title": "Aislamiento térmico",
+        "short": "Menos frío en invierno y menos calor en verano.",
+        "body": "Incorporamos lana mineral u otros aislantes dentro de trasdosados y falsos techos para reducir pérdidas por fachadas, cubiertas y medianeras. Antes de proponer una solución revisamos el cerramiento y el riesgo de condensaciones.",
+        "points": [
+          "Trasdosado de fachadas",
+          "Aislamiento bajo cubierta",
+          "Revisión de puentes térmicos",
+          "Barrera de vapor cuando hace falta"
+        ],
+        "layers": [
+          "Fachada existente",
+          "Aislante",
+          "Placa",
+          "Exterior",
+          "Interior"
+        ]
+      },
+      {
+        "id": "acustico",
+        "title": "Aislamiento acústico e insonorización",
+        "short": "Menos ruido entre vecinos, habitaciones o locales.",
+        "body": "Reducimos el ruido que pasa de un espacio a otro combinando placas, lana mineral y fijaciones elásticas que desacoplan la estructura. Primero identificamos de dónde viene el ruido (voces, impactos, maquinaria) y cómo está construido el recinto, porque la solución cambia en cada caso.",
+        "points": [
+          "Paredes medianeras",
+          "Techos bajo vecinos",
+          "Locales y salas de ensayo",
+          "Estudio previo del origen del ruido"
+        ],
+        "layers": [
+          "Doble placa",
+          "Doble estructura independiente",
+          "Lana mineral"
+        ]
+      }
+    ],
+    "fire": "También realizamos sectorizaciones y protección pasiva contra incendios con sistemas de placa, según los requisitos de cada obra.",
+    "drawingNote": "Esquemas orientativos. El sistema exacto se define en la visita.",
+    "indexLabel": "Ir a cada servicio"
+  },
+  "why": {
+    "kicker": "Por qué PYL Bages",
+    "title": "Lo que nos piden los clientes, puesto por escrito",
+    "items": [
+      {
+        "title": "Obra limpia cada día",
+        "text": "Protegemos suelos y muebles, recogemos recortes y polvo al terminar cada jornada y retiramos los residuos de placa al final."
+      },
+      {
+        "title": "Plazos que se cumplen",
+        "text": "Fijamos fechas de inicio y fin en el presupuesto y te avisamos con antelación si algo de la obra obliga a cambiarlas."
+      },
+      {
+        "title": "Presupuesto cerrado",
+        "text": "Tras medir, te damos un precio por partidas con material, mano de obra y retirada de residuos. Sin sorpresas al final."
+      },
+      {
+        "title": "Asesoramiento técnico",
+        "text": "Te explicamos qué placa, perfilería y aislante conviene y por qué, para que decidas sabiendo lo que pagas."
+      }
+    ]
+  },
+  "work": {
+    "kicker": "Trabajos realizados",
+    "title": "Así trabajamos en obra",
+    "intro": "Fotografías reales de nuestras obras en ejecución: estructura, placa y juntas antes de la pintura. Desliza la barra para comparar el antes y el después.",
+    "compareLabel": "Comparar antes y después",
+    "before": "Antes",
+    "after": "Después",
+    "sliderHelp": "Usa las flechas izquierda y derecha para mover la comparación.",
+    "pairs": [
+      {
+        "title": "[SUSTITUIR por foto real] Reforma de salón con techo nuevo",
+        "beforeAlt": "[SUSTITUIR] Salón antes de la reforma, con techo antiguo",
+        "afterAlt": "[SUSTITUIR] Salón con falso techo continuo de pladur terminado"
+      },
+      {
+        "title": "[SUSTITUIR por foto real] Nueva distribución de oficina",
+        "beforeAlt": "[SUSTITUIR] Oficina diáfana antes de dividir",
+        "afterAlt": "[SUSTITUIR] Oficina dividida con tabiques de placa de yeso"
+      }
+    ],
+    "gallery": [
+      {
+        "img": "techo-continuo-trasdosados",
+        "type": "Falso techo y trasdosados",
+        "text": "Techo continuo y paredes trasdosadas con las juntas encintadas, dejando registros para los colectores.",
+        "alt": "Estancia con falso techo continuo y paredes trasdosadas de placa de yeso con las juntas encintadas y dos registros para colectores"
+      },
+      {
+        "img": "tabique-bajo-l",
+        "type": "Tabiquería",
+        "text": "Tabique bajo en L con aristas rectas y juntas plastecidas, a falta de la pintura.",
+        "alt": "Tabique bajo de placa de yeso laminado en forma de L con aristas rectas y juntas plastecidas, sobre suelo de terrazo"
+      },
+      {
+        "img": "descuelgue-climatizacion",
+        "type": "Descuelgue para climatización",
+        "text": "Descuelgue de techo con hueco de registro para el conducto de aire y el cableado.",
+        "alt": "Falso techo de pladur con descuelgue y hueco por el que bajan un conducto flexible de climatización y cables"
+      },
+      {
+        "img": "techo-exterior-glasroc",
+        "type": "Techo exterior",
+        "text": "Techo de porche con placa específica para exterior, atornillada antes de tratar juntas.",
+        "alt": "Techo exterior de un porche revestido con placas para exterior atornilladas sobre estructura metálica, con jardín al fondo"
+      }
+    ]
+  },
+  "process": {
+    "kicker": "Cómo trabajamos",
+    "title": "De la primera llamada a la entrega, en 4 pasos",
+    "steps": [
+      {
+        "title": "Cuéntanos tu proyecto",
+        "text": "Por teléfono, WhatsApp o el formulario. Si tienes fotos o planos, envíalos: nos ahorran tiempo a los dos."
+      },
+      {
+        "title": "Visita y medición",
+        "text": "Vamos a la obra, medimos, revisamos soportes e instalaciones y te proponemos la solución adecuada."
+      },
+      {
+        "title": "Presupuesto cerrado",
+        "text": "Recibes un presupuesto por partidas con materiales, plazos y condiciones. Sin compromiso."
+      },
+      {
+        "title": "Ejecución y entrega",
+        "text": "Montamos, tratamos juntas y revisamos contigo el resultado antes de dar la obra por terminada."
+      }
+    ]
+  },
+  "clients": {
+    "kicker": "Para quién trabajamos",
+    "title": "Una forma de colaborar para cada tipo de cliente",
+    "items": [
+      {
+        "title": "Particulares",
+        "text": "Reformas de vivienda, cambios de distribución, techos nuevos y problemas de ruido o frío.",
+        "points": [
+          "Visita y presupuesto sin compromiso",
+          "Te explicamos cada opción sin tecnicismos",
+          "Coordinamos con el resto de oficios si lo necesitas"
+        ]
+      },
+      {
+        "title": "Constructoras, reformistas y arquitectos",
+        "text": "Ejecutamos la partida de placa de yeso de vuestra obra según proyecto o planos.",
+        "points": [
+          "Presupuesto por partidas sobre mediciones o planos",
+          "Equipo propio con maquinaria",
+          "Coordinación con vuestro jefe de obra"
+        ]
+      },
+      {
+        "title": "Locales, oficinas y comunidades",
+        "text": "Adecuación de locales, divisiones de oficina, techos registrables e insonorización de actividades.",
+        "points": [
+          "Planificación para molestar lo mínimo",
+          "Techos registrables para mantenimiento",
+          "Soluciones acústicas para actividad"
+        ]
+      }
+    ],
+    "cta": "Cuéntanos tu caso"
+  },
+  "comfort": {
+    "kicker": "Aislamiento y confort",
+    "title": "¿Aislar del frío o del ruido? No es lo mismo",
+    "thermalTitle": "Aislamiento térmico",
+    "thermalWhen": "Conviene cuando:",
+    "thermalItems": [
+      "Las paredes exteriores están frías al tacto en invierno",
+      "Aparecen condensaciones o moho en esquinas",
+      "Una habitación bajo cubierta es un horno en verano",
+      "La calefacción no consigue mantener la temperatura"
+    ],
+    "acousticTitle": "Aislamiento acústico",
+    "acousticWhen": "Conviene cuando:",
+    "acousticItems": [
+      "Oyes conversaciones o la televisión de los vecinos",
+      "Notas pasos o golpes del piso de arriba",
+      "Tienes un local, despacho o sala de música que no debe molestar",
+      "Necesitas privacidad entre consultas o despachos"
+    ],
+    "note": "El resultado depende de cómo esté construido cada espacio. Por eso, antes de proponer una solución, la valoramos en la visita; no prometemos cifras de ahorro ni de decibelios sin conocer la obra."
+  },
+  "reviews": {
+    "kicker": "Opiniones",
+    "title": "Lo que dicen nuestros clientes",
+    "placeholderTag": "[Reseña real]",
+    "placeholderText": "[DATO A CONFIRMAR CON EL CLIENTE] Aquí se mostrarán reseñas reales de clientes, copiadas con su permiso o de la ficha de Google.",
+    "placeholderAuthor": "Nombre del cliente, municipio",
+    "google": "Ver reseñas en Google"
+  },
+  "area": {
+    "kicker": "Zona de trabajo",
+    "title": "Trabajamos en Manresa y toda la comarca del Bages",
+    "intro": "Nos desplazamos a obras en estos municipios y alrededores. Si el tuyo no aparece, pregúntanos.",
+    "mapTitle": "Mapa esquemático de la comarca del Bages con los municipios donde trabajamos",
+    "base": "Nuestra base",
+    "loadMap": "Ver en Google Maps",
+    "mapConsent": "Al cargar el mapa, Google recibirá datos de tu navegación. Solo se carga si lo aceptas.",
+    "listLabel": "Municipios donde trabajamos"
+  },
+  "faq": {
+    "kicker": "Preguntas frecuentes",
+    "title": "Antes de empezar, lo que más nos preguntan",
+    "items": [
+      {
+        "q": "¿Qué diferencia hay entre el pladur y la obra tradicional de ladrillo?",
+        "a": "El pladur (placa de yeso laminado) se monta en seco, atornillando placas a una estructura metálica. Se hace en menos tiempo, genera menos escombro y polvo, pesa mucho menos y permite pasar instalaciones por dentro. Con la placa y el aislante adecuados, cumple también requisitos acústicos, térmicos y de resistencia al fuego."
+      },
+      {
+        "q": "¿Cuánto tarda una obra de pladur?",
+        "a": "Depende de los metros, del tipo de sistema y de si hay que coordinarse con otros oficios. En la visita te damos un plazo concreto para tu obra y lo dejamos por escrito en el presupuesto."
+      },
+      {
+        "q": "¿Cómo pido presupuesto?",
+        "a": "Rellena el formulario de esta página, llámanos o escríbenos por WhatsApp. Cuéntanos el municipio, el tipo de trabajo y, si puedes, envía fotos o planos. Te contactamos para concertar la visita."
+      },
+      {
+        "q": "¿Qué incluye la visita?",
+        "a": "Medimos los espacios, revisamos el estado de paredes, techos e instalaciones, escuchamos qué necesitas y te recomendamos la solución. Con esa información preparamos un presupuesto cerrado. La visita es sin compromiso."
+      },
+      {
+        "q": "¿Qué diferencia hay entre aislamiento acústico y térmico?",
+        "a": "El térmico reduce el paso de calor y frío a través de paredes y techos. El acústico reduce el paso del sonido entre espacios. A veces se resuelven con el mismo sistema y a veces no: un buen aislante térmico no siempre aísla del ruido. Lo valoramos según tu problema."
+      },
+      {
+        "q": "¿Trabajáis para particulares o solo para empresas?",
+        "a": "Para ambos. Hacemos reformas de vivienda para particulares y colaboramos con constructoras, reformistas, arquitectos, comunidades y negocios."
+      }
+    ]
+  },
+  "form": {
+    "kicker": "Presupuesto",
+    "title": "Pide tu presupuesto gratis",
+    "intro": "Cuéntanos qué necesitas. Te respondemos para concertar una visita. Los campos con * son obligatorios.",
+    "name": "Nombre",
+    "phone": "Teléfono",
+    "email": "Email",
+    "town": "Municipio de la obra",
+    "workType": "Tipo de trabajo",
+    "workOptions": [
+      "Tabiques",
+      "Falsos techos",
+      "Aislamiento térmico",
+      "Aislamiento acústico",
+      "Otro"
+    ],
+    "choose": "Elige una opción",
+    "surface": "Superficie aproximada (m²)",
+    "surfaceHint": "Si no la sabes, déjalo en blanco.",
+    "clientType": "Tipo de cliente",
+    "clientOptions": [
+      "Particular",
+      "Profesional"
+    ],
+    "message": "Cuéntanos tu proyecto",
+    "messagePlaceholder": "Qué quieres hacer, estado actual, plazos que tienes en mente…",
+    "files": "Fotos o planos (opcional)",
+    "filesHint": "Imágenes o PDF. Máximo 5 archivos de 5 MB cada uno.",
+    "honeypot": "No rellenes este campo",
+    "privacy": "He leído y acepto la <a href=\"{privacyUrl}\">política de privacidad</a>",
+    "privacyNote": "Responsable: PYL Bages. Finalidad: responder a tu solicitud de presupuesto. No cedemos tus datos a terceros salvo obligación legal. Puedes ejercer tus derechos escribiendo a nuestro email.",
+    "submit": "Enviar solicitud",
+    "sending": "Enviando…",
+    "success": "¡Gracias! Hemos recibido tu solicitud. Te contactaremos lo antes posible.",
+    "error": "No hemos podido enviar el formulario. Inténtalo de nuevo o llámanos.",
+    "errors": {
+      "required": "Este campo es obligatorio.",
+      "email": "Introduce un email válido, por ejemplo nombre@correo.com.",
+      "phone": "Introduce un teléfono de 9 cifras.",
+      "surface": "Introduce un número entre 1 y 100000.",
+      "privacy": "Debes aceptar la política de privacidad para enviar la solicitud.",
+      "filesCount": "Puedes adjuntar como máximo 5 archivos.",
+      "fileSize": "Cada archivo debe pesar 5 MB o menos.",
+      "fileType": "Solo se admiten imágenes (JPG, PNG, WEBP, HEIC) o PDF.",
+      "summary": "Revisa los campos marcados en rojo."
+    }
+  },
+  "footer": {
+    "tagline": "Tabiquería de placa de yeso laminado, falsos techos y aislamiento en la comarca del Bages.",
+    "contact": "Contacto",
+    "hours": "Horario",
+    "hoursText": "De lunes a viernes, de 8:00 a 18:00",
+    "area": "Zona",
+    "areaText": "Manresa y comarca del Bages",
+    "office": "Oficina",
+    "noPublic": "Trabajamos a domicilio en el Bages",
+    "legal": "Información legal",
+    "legalNotice": "Aviso legal",
+    "privacy": "Política de privacidad",
+    "cookies": "Política de cookies",
+    "cookieSettings": "Configurar cookies",
+    "rights": "Todos los derechos reservados."
+  },
+  "cookies": {
+    "title": "Cookies",
+    "text": "Usamos cookies técnicas necesarias. Con tu permiso, también cargaríamos estadísticas de visitas y el mapa de Google.",
+    "accept": "Aceptar",
+    "reject": "Rechazar",
+    "configure": "Configurar",
+    "save": "Guardar selección",
+    "necessary": "Necesarias",
+    "necessaryText": "Guardan tu elección de cookies. Siempre activas.",
+    "analytics": "Estadísticas",
+    "analyticsText": "Nos ayudan a saber qué páginas se visitan. Ahora mismo no hay ninguna activa.",
+    "maps": "Mapas",
+    "mapsText": "Permiten mostrar el mapa de Google Maps, que puede instalar sus propias cookies.",
+    "more": "Ver la política de cookies"
+  },
+  "pages": {
+    "thanksTitle": "Gracias por tu solicitud",
+    "thanksText": "Hemos recibido tus datos. Te contactaremos lo antes posible para concertar la visita. Si es urgente, llámanos o escríbenos por WhatsApp.",
+    "backHome": "Volver al inicio",
+    "notFoundTitle": "Página no encontrada",
+    "notFoundText": "La página que buscas no existe o ha cambiado de dirección.",
+    "legalNoticeTitle": "Aviso legal",
+    "privacyTitle": "Política de privacidad",
+    "cookiesTitle": "Política de cookies",
+    "legalPending": "[DATO A CONFIRMAR CON EL CLIENTE] Texto legal pendiente de redactar o revisar por un profesional, con la razón social, NIF, domicilio y datos registrales de la empresa.",
+    "cookiesTable": "Cookies y almacenamiento que puede usar esta web",
+    "cookiesRows": [
+      [
+        "pyl-consent (almacenamiento local)",
+        "Propia, necesaria",
+        "Guarda tu elección de cookies",
+        "12 meses"
+      ],
+      [
+        "Google Maps",
+        "Terceros, mapas",
+        "Solo si aceptas «Mapas» y pulsas «Ver en Google Maps»",
+        "Según Google"
+      ],
+      [
+        "Analítica",
+        "Terceros, estadísticas",
+        "No hay ninguna activa actualmente",
+        "—"
+      ]
+    ],
+    "cookiesHead": [
+      "Nombre",
+      "Tipo",
+      "Finalidad",
+      "Duración"
+    ]
+  }
+}
